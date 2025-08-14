@@ -134,12 +134,28 @@ ul {
     margin: 20px 0;
 }
 
+.name-list li {
+    display: list-item;
+    margin-bottom: 5px;
+}
+
+.result-list li {
+    display: list-item;
+    margin-bottom: 5px;
+}
+
 .result-list {
     margin-top: 15px;
     color: #05DF05;
     font-size: 22px;
     font-weight: bold;
     text-align: center;
+}
+
+.name-list, .result-list {
+    display: flex;
+    flex-direction: column; 
+    padding-left: 0;        
 }
 
 /* Botão de sortear título */
