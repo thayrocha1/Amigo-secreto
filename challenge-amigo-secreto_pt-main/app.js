@@ -48,3 +48,10 @@ function sortearAmigo() {
     li.textContent = "Amigo secreto: " + amigoSorteado;
     ulResultado.appendChild(li);
 }
+
+function reiniciar() {
+    amigos = []; // Limpa a lista de amigos
+    document.getElementById("listaAmigos").innerHTML = ''; // Limpa a lista na tela
+    document.getElementById("resultado").innerHTML = ''; // Limpa o resultado na tela
+    document.getElementById("amigo").value = ''; // Limpa o campo de texto
+}
